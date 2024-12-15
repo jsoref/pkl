@@ -13,7 +13,7 @@ examples {
       }
     }
     import("package://localhost:0/birds@0.5.0#/catalog/Swallow.pkl")
-    import("package://localhost:0/birds@0.5.0#/catalog/Ostritch.pkl")
+    import("package://localhost:0/birds@0.5.0#/catalog/Ostrich.pkl")
   }
   ["importing while specifying checksum"] {
     import("package://localhost:0/birds@0.5.0::sha256:bfaf5281613d170a740505cc87561041f4e0cad1f0e6938bf94f7609f9a4673d#/catalog/Swallow.pkl")
@@ -21,6 +21,6 @@ examples {
   ["reads"] {
     read("package://localhost:0/birds@0.5.0#/Bird.pkl")
     read("package://localhost:0/birds@0.5.0#/catalog/Swallow.pkl")
-    read("package://localhost:0/birds@0.5.0#/catalog/Ostritch.pkl")
+    read("package://localhost:0/birds@0.5.0#/catalog/Ostrich.pkl")
   }
 }
